@@ -51,7 +51,7 @@ body {
 
 @layer components {
   .question-card {
-    @apply flex flex-col justify-start bg-card-background shadow-lg rounded-xl p-8 hover:shadow-2xl transition-shadow duration-300 max-w-112.5 md:max-w-100 h-64 overflow-hidden;
+    @apply flex flex-col justify-start bg-card-background shadow-lg rounded-xl px-8 py-10 hover:shadow-2xl transition-shadow duration-300 max-w-112.5 md:max-w-100 h-auto overflow-hidden;
   }
 
   .question-card-title {
