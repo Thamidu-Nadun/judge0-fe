@@ -99,7 +99,7 @@ const NavBar = () => {
       <nav className="md:hidden sticky top-0 z-50">
         <div
           className="bar bg-[#081318]/70
-        flex items-center justify-between px-5 h-14"
+        flex items-center justify-between px-5 py-8 h-14"
         >
           <div className="nav-logo">
             <Image
